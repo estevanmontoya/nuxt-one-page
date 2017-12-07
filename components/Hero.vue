@@ -17,7 +17,7 @@ export default {
   width: 100%;
   margin: 0px auto;
   padding: 200px 0px;
-  background-image: url('../assets/flyfishing.jpg');
+  background-image: url('./../assets/flyfishing.jpg');
   background-position: bottom center;
   background-size: cover;
 }
