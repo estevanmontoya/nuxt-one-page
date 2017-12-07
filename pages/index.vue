@@ -28,11 +28,15 @@ export default {
 
 <style>
 .container {
-  /*min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;*/
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  .container {
+    grid-template-columns: 1fr 2fr;
+    max-width: 1440px;
+    width: 80%;
+    margin: auto;
+  }
 }
 
 .title {

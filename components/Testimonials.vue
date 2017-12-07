@@ -21,11 +21,16 @@ export default {
 </script>
 
 <style lang='css'>
+@media (min-width: 1024px) {
+  .testimonials {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 .testimonials {
   margin: auto;
   width: 80%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   padding: 100px 0px;
   grid-gap: 40px;
 }

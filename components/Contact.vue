@@ -1,7 +1,7 @@
 <template>
   <div class="contact">
     <div class="form">
-      <textarea name="name" rows="8" cols="80"></textarea><br>
+      <textarea name="name"></textarea><br>
       <input type="text" placeholder="Name">
       <input type="email" placeholder="E-Mail"><br>
       <button>Send</button>
@@ -19,13 +19,30 @@
 </template>
 
 <style scoped>
+@media (min-width: 1024px) {
+  .contact {
+    grid-template-columns: 1fr 1fr;
+    width:80%;
+    margin: auto;
+    padding: 100px 40px;
+  },
+  textarea {
+    width:100%;
+  }
+}
+@media (max-width: 300px) {
+  .contact {
+    width: 100%;
+    padding: 20px;
+  },
+  textarea {
+    width:100%;
+  }
+}
 .contact {
-  margin: auto;
-  width:80%;
-  padding: 100px 40px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
+
 }
 .form {
 

@@ -11,10 +11,14 @@
 </template>
 
 <style scoped>
+@media (min-width: 1024px) {
+  .service1 {
+    grid-template-columns: 1fr 2fr;
+  }
+}
 .service1 {
   background-color: black;
   display: grid;
-  grid-template-columns: 1fr 2fr;
   height: 400px;
 }
 .service-img {

@@ -10,16 +10,15 @@
   </div>
 </template>
 
-<script>
-// export default {
-// }
-</script>
-
 <style lang="css">
+@media (min-width: 1024px) {
+  .about {
+    grid-template-columns: 3fr 1fr;
+  }
+}
 .about {
   background-color: lightblue;
   display: grid;
-  grid-template-columns: 3fr 1fr;
 }
 .about-text {
   padding: 100px 60px;
