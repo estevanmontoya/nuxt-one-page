@@ -29,6 +29,7 @@ export default {
 <style>
 .container {
   width: 100%;
+  box-shadow: 0px 0px 60px rgba(0,0,0,.25);
 }
 @media (min-width: 1024px) {
   .container {
@@ -39,24 +40,21 @@ export default {
   }
 }
 
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+h1 {
+  font-size: 60px;
 }
-
-.links {
-  padding-top: 15px;
+h2 {
+  font-size: 45px;
+}
+h3 {
+  font-size: 30px;
+}
+p {
+  font-size: 20px;
 }
 </style>

@@ -5,7 +5,7 @@
       <p>Bacon ipsum dolor amet nisi adipisicing boudin, chicken cupim ribeye strip steak meatloaf qui nostrud chuck ut bresaola id dolor. Doner ball tip pancetta strip steak nostrud. Boudin eu in beef consequat incididunt sunt doner laboris pig reprehenderit. Lorem jerky pastrami, occaecat cupim aliqua labore tongue ex esse. Occaecat meatloaf landjaeger venison, capicola drumstick sausage pork belly tri-tip proident frankfurter ut. Beef ribs pariatur voluptate frankfurter flank.</p>
     </div>
     <div class="about-image">
-      Image here
+      <img src="../assets/manwithfish.jpg" alt="">
     </div>
   </div>
 </template>
@@ -17,7 +17,7 @@
   }
 }
 .about {
-  background-color: lightblue;
+  background-color: white;
   display: grid;
 }
 .about-text {
@@ -30,5 +30,9 @@
   justify-content: center;
   align-items: center;
   color: white;
+}
+.about-image img {
+  width:100%;
+  height: auto;
 }
 </style>
