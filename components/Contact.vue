@@ -19,6 +19,17 @@
 </template>
 
 <style scoped>
+.contact {
+  display: grid;
+  grid-gap: 40px;
+  background-color: #f9f9f9;
+}
+.form {
+
+}
+.contact-info {
+
+}
 @media (min-width: 1024px) {
   .contact {
     grid-template-columns: 1fr 1fr;
@@ -38,16 +49,5 @@
   textarea {
     width:100%;
   }
-}
-.contact {
-  display: grid;
-  grid-gap: 40px;
-
-}
-.form {
-
-}
-.contact-info {
-
 }
 </style>

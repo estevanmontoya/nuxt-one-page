@@ -21,13 +21,17 @@ export default {
   background-position: bottom center;
   background-size: cover;
 }
+.content {
+  text-align: center;
+  color: white;
+}
+h2 {
+  font-size: 20px;
+  letter-spacing: 10px;
+}
 @media (min-width: 1024px) {
   .hero {
     background-position: center left;
   }
-}
-.content {
-  text-align: center;
-  color: white;
 }
 </style>

@@ -11,11 +11,6 @@
 </template>
 
 <style lang="css">
-@media (min-width: 1024px) {
-  .about {
-    grid-template-columns: 3fr 1fr;
-  }
-}
 .about {
   background-color: white;
   display: grid;
@@ -40,5 +35,10 @@
 .about-image img {
   width:100%;
   height: auto;
+}
+@media (min-width: 1024px) {
+  .about {
+    grid-template-columns: 3fr 1fr;
+  }
 }
 </style>

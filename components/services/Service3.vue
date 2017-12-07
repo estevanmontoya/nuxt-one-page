@@ -12,11 +12,6 @@
 </template>
 
 <style scoped>
-@media (min-width: 1024px) {
-  .service3 {
-    grid-template-columns: 1fr 2fr;
-  }
-}
 .service3 {
   background-color: darkgreen;
   display: grid;
@@ -33,5 +28,10 @@
 .service-text {
   color: white;
   padding: 40px;
+}
+@media (min-width: 1024px) {
+  .service3 {
+    grid-template-columns: 1fr 2fr;
+  }
 }
 </style>
